@@ -1,0 +1,127 @@
+/* 
+    Document   : style2
+    Created on : 4 Jun, 2011, 12:26:51 AM
+    Author     : Hanut
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.bg_image{
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:100px;
+}
+
+body {
+	
+        margin: 0px;
+	padding: 0;
+	background: #0F0F0F;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #464646;
+}
+
+.main{
+    background-color: #EAEAEA;
+    color:#FFF;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    right:120px;
+    background-color: #ffffff;
+}
+
+.left_panel{
+   
+    background-image: url(images/left_panel.png);
+    color:white;
+    font-family: Arial,Helvetica;
+    font-size: 15px;
+    position:absolute;
+    left: 0px;
+    right: 5px;
+    top: 0px;
+    bottom:0px;
+    width: 200px;
+    height: 500px;
+}
+
+.center_panel{
+    position: absolute;
+    background-color: transparent;
+    left:210px;
+    width:500px;
+    height:500px;
+    background-image: url("images/center_panel.png");
+}
+
+.right_panel{
+       
+    position: absolute;
+    background-color: transparent;
+    top:0px;
+    left:720px;
+    height:500px;
+    width:240px;
+    background-image: url("images/right_panel.png");
+}
+
+.center_contents{
+    position:absolute;
+    padding:10px;
+    color:black;
+    margin: 2%;
+}
+
+.br{
+    background-image: url(images/br.png);
+    
+    background-position:100% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width:220px;
+    height: 300px;
+    
+}
+
+.bl{
+    background-image: url(images/bl.png);
+    
+    background-position:0% 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width:220px;
+    height: 300px;
+}
+
+.tl{
+    background-image: url(images/tl.png);
+    background-color: #F3E3E3;
+    background-position:0% 0%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width:50%;
+    
+}
+
+.tr{
+    background-image: url(images/tr.png);
+    
+    background-position:100% 0%;
+    background-repeat: no-repeat;
+    position: absolute;
+    width:220px;
+    height: 300px;
+}

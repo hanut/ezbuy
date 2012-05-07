@@ -1,0 +1,350 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background-image: url(images/bg.png);
+        background-attachment: fixed;
+}
+a.ex5:hover,a.ex5:active {
+    text-decoration:underline;
+    color: black;
+    font-weight: 200;
+    font-size: 20px;
+    background-image:url(images/button2alt.png);
+    background-color: white;
+}
+
+a.links_left:hover,a.links_left:active{
+    text-decoration:none;
+    color: white;
+    font-weight: bolder;
+    background-color:orange;
+    width: 191px;
+    font-size:  19px;
+    outline:5px solid white;
+   
+}
+
+.ex5{
+    text-decoration: none;
+    color:#FFF;
+    font-size: 16px;
+    font-weight: normal;
+    display: block;
+    background-image:url(images/button2.png);
+    outline:    1px white solid;
+}
+
+.itemLink{
+    text-decoration: none;
+    color:#268;
+    font-size: 14px;
+}
+
+a.itemLink:hover,a.itemLink:active{
+    text-decoration: underline overline;
+    color:orangered;
+}
+
+.header1{
+	
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top:auto;
+	background-color:#333;
+	border:solid;
+	border-right-width:thin;
+	border-left-width:thin;
+	border-top-width:thin;
+	border-bottom-width:thin;
+	height:150px;
+	width:1000px;
+}
+
+
+
+.menu{
+	border:2px thin #FFF;
+	height:25px;
+	width:1202px;
+	position:relative;
+        margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top:auto;
+	
+}
+
+.main_panel{
+	width:1200px;
+	position:relative;
+	background-color:#CCC;
+        margin-left:auto;
+	margin-right:auto;
+	margin-bottom:auto;
+	margin-top:auto;
+	
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lMenu{
+    position:absolute;  left:4px;right:5px;top:100px;
+    background-color: whitesmoke;
+    background-repeat: repeat;
+    list-style-type:none;
+    margin: 0px;
+    padding: 0px;
+    /* for IE */
+    filter:alpha(opacity=90);
+   /* CSS3 standard */
+    opacity:0.9;
+}
+
+.links{
+	color:#F90;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	padding:10px;
+	border:3px solid #000;
+}
+
+.links_int{
+        border: 2px solid #FFF;
+	border-bottom:1px #000 dashed;
+	border-top:1px #000 dashed;
+	border-left:1px #CCC dotted;
+	border-right:1px #666 dotted;
+	height:30px;
+	width: 60px;
+	text-align:center
+}
+
+.links_left{
+	font-size: 17px;
+        font-weight: normal;
+	text-align:center;
+	vertical-align:middle;
+        background-color: whitesmoke;
+        color: black;
+        height: 30px;
+        text-decoration: none;
+        width: 190px;
+        display: block;
+        border-top: 1px dotted black;
+        border-bottom: 1px dotted black;
+        border-collapse: collapse;
+        padding-top:10px;
+        /* for IE */
+}
+
+
+
+#leftcontent {
+position: absolute;
+width:200px;
+border:1px solid #000;
+height:700px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+color:black;
+background-color: white;
+text-align:left;
+background-image: url(images/lmenuBG.png);
+	}
+	
+#centercontent {
+background:#fff;
+position:absolute;
+left:200px;
+top:0px;
+width:800px;
+border:1px solid #000;
+font-family:Arial, Helvetica, sans-serif;
+background-color:#333;
+color:#FFF;
+font-size:24px;
+height:700px;
+
+}
+	
+#rightcontent {
+position:relative;
+left:1000px;
+top:0px;
+width:200px;
+height:700px;
+border:1px solid #000;
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+color:#FFF;
+background-image:url(images/left_contents.png);
+	}
+
+.content{
+	padding-left:50px;
+        padding-right:25px;
+        padding-top:25px;
+        font-size: 15px;
+	}
+
+.content2{
+        position: absolute;
+        top:10px;
+        left: 4px;
+	padding:5px;
+	text-align:center;
+	vertical-align:middle;
+	margin-left:0px;
+        background-image: url(images/button3.png);
+	}
+	
+#login_panel{
+        
+	font-size:12px;
+	width:200px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	border:1px dotted white;
+	vertical-align:middle;
+	text-align:left;
+	height:200px;
+}
+
+#footer{
+    position: relative;
+    left:0px;
+    height:50px;
+    background-image: url(images/button3.png);
+    width: 1200px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:auto;
+    margin-top:auto;
+}
+
+.search_box{
+    position:   fixed;
+    visibility: visible;
+    top:205px;
+    right: 31px;
+    border: 5px solid cornflowerblue;
+    background-color: white;
+    width: 300px;
+    display:block !important;
+}
+
+.hide{display:none !important;}
+
+
+.pWindow{
+    position:   absolute;
+    visibility: visible;
+    top:150px;
+    right: 550px;
+    background-image: url(images/mybox.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 500px;
+    display:block !important;
+}
+
+.pContents{
+   
+    padding-left: 35px;
+    
+}
+
+.itemPane{
+    
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    visibility: visible;
+    background-image: url(images/mybox2.png);
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 500px;
+    display:block !important;
+    
+}
+
+button{
+    background-color: #06F;
+    color: #fff;
+    border: 1px solid darkblue;
+}
+
+.button{
+    background-color: #06F;
+    color: #fff;
+    border: 1px solid darkblue;
+}
+button:active,.button:active{
+    background-color: darkblue;
+}
+button:hover,.button:hover{
+    background-color: mediumblue;
+    outline: 1px solid orange;
+}
+
+.deleteItemPane{
+    background-image: url(images/boxBG.png);
+    background-repeat: repeat;
+    width: 950px;
+    z-index: 6;
+    padding-bottom: 8px;
+}
+
+.clearPane{
+    position: absolute;
+    top: 200px;
+    left: 5%;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    display:block !important;
+    z-index: 5;
+    background-image: url("images/item_pane_BG.png");
+    visibility: visible;
+}
+
+.iBox{
+    width:120px;
+    height:150px;
+    float:left;
+    border:1px black solid;
+    background-color:white;
+    font-family:Arial;
+    font-size:10px;
+    margin-left:1px;
+    margin-right: 1px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+.iBox:hover,.iBox:active{
+    border: 1px orangered solid;
+    background-color: orange;
+    color: white;   
+}
+
+.sCart{
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    top:340px;
+    margin-left:12px;
+    outline:2px orange solid;
+    color:white;
+    text-decoration: none;
+    height: 90px;
+    width: 175px;
+    background-color: lavenderblush;
+}
